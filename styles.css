@@ -1,0 +1,31 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('vodka-wizard.jpg') no-repeat center center fixed; /* Replace with the path to your Vodka Wizard image */
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+}
